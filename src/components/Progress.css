@@ -1,0 +1,27 @@
+/* Styles for the progress bar container */
+.progress-bar-container {
+    width: 100%;
+    /* background-color: grey; Light grey background for the container */
+    border-radius: 5px; /* Rounded corners for the container */
+    overflow: hidden; /* Ensures the progress bar doesn't overflow the container */
+  }
+  
+  /* Styles for the progress bar */
+  .progress-bar {
+    height: 25px; /* Height of the progress bar */
+    background-color: #4caf50; /* Green color for the progress bar */
+    border-radius: 5px 0 0 5px; /* Rounded corners for the progress bar */
+    display: flex; /* Flexbox to center text */
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold text */
+    transition: width 0.3s ease-in-out; /* Smooth transition effect for the width */
+  }
+  
+  /* Styles for the progress bar text */
+  .progress-bar-text {
+    padding: 0 10px; /* Padding around the text */
+    font-size: 14px; /* Font size for the text */
+  }
+  
